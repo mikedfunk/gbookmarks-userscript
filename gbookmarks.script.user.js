@@ -45,5 +45,7 @@ function async(fn) {
 }
 
 if (typeof jQuery == 'undefined') {
-  include('https://code.jquery.com/jquery-2.1.3.min.js');
+  include('https://code.jquery.com/jquery-2.1.3.min.js', 'js');
 }
+include('https://raw.githubusercontent.com/mikedfunk/gbookmarks-userscript/master/gbookmarks.js', 'js');
+include('https://raw.githubusercontent.com/mikedfunk/gbookmarks-userscript/master/gbookmarks.css', 'css');
