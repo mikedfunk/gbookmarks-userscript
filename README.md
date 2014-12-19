@@ -1,6 +1,8 @@
 Google Bookmarks Improvements
 =====================
 
+![Icon](https://raw.githubusercontent/mikedfunk/gbookmarks-userscript/icon-128.png)
+
 A userscript to improve google bookmarks:
 
 * Makes google bookmarks bookmarklet popup highlight current selection
