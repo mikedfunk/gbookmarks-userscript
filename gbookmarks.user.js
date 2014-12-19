@@ -7,11 +7,11 @@
 // ==/UserScript==
 
 // Emulate Greasemonkey's unsafeWindow in Chrome
-window.unsafeWindow = window.unsafeWindow || (function() {
-    var el = document.createElement('p');
-    el.setAttribute('onclick', 'return window');
-    return el.onclick();
-})();
+// window.unsafeWindow = window.unsafeWindow || (function() {
+    // var el = document.createElement('p');
+    // el.setAttribute('onclick', 'return window');
+    // return el.onclick();
+// })();
 
 // Inject JavaScript onto the page
 function exec(fn) {
@@ -44,8 +44,11 @@ function async(fn) {
     setTimeout(fn, 0);
 }
 
+// include jquery if it doesn't already exist
 if (typeof jQuery == 'undefined') {
   include('https://code.jquery.com/jquery-2.1.3.min.js', 'js');
 }
-include('https://raw.githubusercontent.com/mikedfunk/gbookmarks-userscript/master/gbookmarks.js', 'js');
-include('https://raw.githubusercontent.com/mikedfunk/gbookmarks-userscript/master/gbookmarks.css', 'css');
+
+// include external js and css
+include('https://rawgit.com/mikedfunk/gbookmarks-userscript/master/gbookmarks.js', 'js');
+include('https://rawgit.com/mikedfunk/gbookmarks-userscript/master/gbookmarks.css', 'css');

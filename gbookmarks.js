@@ -8,10 +8,4 @@ $(function()
       $('form[name="add_bkmk_form"]').submit();
     }
   });
-
-  $('body').keyup(function(e)
-  {
-    // set the selected typeahead background to blue with white foreground
-    $('#ac-list .selected').css('background', 'RGB(61,120,229)').css('color', 'white');
-  });
 });
