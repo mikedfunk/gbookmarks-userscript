@@ -1,7 +1,7 @@
 Google Bookmarks Improvements
 =====================
 
-![Icon](https://raw.githubusercontent.com/mikedfunk/gbookmarks-userscript/master/image-128.png)
+![Icon](https://raw.githubusercontent.com/mikedfunk/gbookmarks-userscript/master/icon-128.png)
 
 A userscript to improve google bookmarks:
 
