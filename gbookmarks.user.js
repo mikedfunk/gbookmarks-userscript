@@ -3,7 +3,7 @@
 // @namespace http://example.com/
 // @description Makes google bookmarks bookmarklet popup highlight current selection and makes enter key submit
 // @match https://www.google.com/bookmarks/mark*
-// @icon https://raw.githubusercontent.com/mikedfunk/gbookmarks-userscript/image-128.png
+// @icon https://raw.githubusercontent.com/mikedfunk/gbookmarks-userscript/master/icon-128.png
 // @version 1.0
 // ==/UserScript==
 
